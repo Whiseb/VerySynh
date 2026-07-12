@@ -34,15 +34,19 @@ The goal is not to replace LLMs, but to make their reasoning **verifiable, reusa
 
 VerySynh is intended for:
 
-- AI researchers
-- AI engineers
-- Software architects
-- Contributors interested in:
-  - Neuro-symbolic AI
-  - Memory-augmented systems
-  - Explainable AI
-  - Structural reasoning
-  - AI verification
+- AI researchers;
+- AI engineers;
+- software architects;
+- contributors interested in:
+  - Neuro-symbolic AI;
+  - Memory-augmented systems;
+  - Explainable AI;
+  - Structural reasoning;
+  - AI verification.
+
+VerySynh is also designed for **end users**—developers, engineers, medical professionals, legal practitioners, and other domain specialists—who benefit from **verified and explainable reasoning** without needing to understand the underlying architecture.
+
+End users interact with VerySynh as a **reliable reasoning partner**, not as a research tool.
 
 ---
 
@@ -50,8 +54,8 @@ VerySynh is intended for:
 
 - 🧠 **LLM** — generates hypotheses.
 - 🧩 **Unifier** — extracts normalized structural representations.
-- 🗂️ **Memory** — stores validated solution patterns instead of textual answers.
-- ⚖️ **Orchestrator** — validates generated reasoning against stored patterns.
+- 🗂️ **Memory** — stores validated solution patterns, negative cases, and relationships between them.
+- ⚖️ **Orchestrator** — validates generated reasoning against stored patterns and enforces structural constraints.
 - 🔄 **Reflection Agent** — continuously refines, aggregates, and evolves memory.
 
 ---
@@ -60,7 +64,8 @@ VerySynh is intended for:
 
 - Structural normalization before comparison.
 - Pattern memory instead of text memory.
-- Deterministic structural verification.
+- Storage of negative cases alongside successful ones.
+- Deterministic structural validation with heuristic retrieval.
 - Multiple admissible solution trajectories.
 - Continuous accumulation of validated experience.
 - Independence from any particular LLM.
@@ -84,7 +89,7 @@ VerySynh is intended for:
           ▼
    Orchestrator
           │
-    Accept / Reject
+     Accept / Reject
 ```
 
 ---
@@ -98,7 +103,7 @@ VerySynh is **not**:
 - another autonomous agent framework;
 - a replacement for neural networks.
 
-VerySynh is a verification architecture that complements existing language models.
+VerySynh is a verification architecture that complements existing language models rather than replacing them.
 
 ---
 
@@ -135,7 +140,7 @@ Current progress:
 | **README.md** | Project overview |
 | **OVERVIEW_EN.md** | Complete project overview (English) |
 | **OVERVIEW_RU.md** | Полное описание проекта (Русский) |
-| **docs/architecture.md** | Architecture specification |
+| **docs/architecture.md** | Complete architecture specification |
 | **docs/theory.md** | Formal concepts and theoretical foundations |
 | **docs/faq.md** | Frequently asked questions |
 
@@ -145,7 +150,7 @@ Current progress:
 
 VerySynh is currently in the specification stage.
 
-Architectural discussions, criticism, implementation ideas, experiments, and contributions are welcome.
+Architectural discussions, constructive criticism, implementation ideas, experiments, and contributions are welcome.
 
 ---
 
