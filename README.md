@@ -21,3 +21,11 @@ Implements the dialectical cycle, assembling prompts, and performing post-genera
 
 ## Evolution of Trust
 The system learns by building richer structural memory, not by retraining the underlying model.
+
+## Documentation
+
+- 🇬🇧 Full Documentation → README_EN.md
+- 🇷🇺 Полная документация → README_RU.md
+- 📐 Architecture Specification → docs/architecture.md
+- 📚 Theory → docs/theory.md
+- ❓ FAQ → docs/faq.md
