@@ -259,5 +259,6 @@ Demo video.
 10. Essence in One Sentence
 VerySynh is an architecture where memory ceases to be a passive repository and becomes an independent participant in reasoning, capable of verifying, challenging, and confirming the model's hypotheses.
 
-Architecture by: Horiless (GitHub: Whiseb, Telegram: @mindress)
-License: CC BY 4.0
+All Rights Reserved. © Horiless (GitHub: Whiseb, Telegram: @mindress).
+Use, copying, distribution, or modification of this architecture
+is allowed only with the written permission of the author.
