@@ -11,6 +11,8 @@ Instead of treating a language model as the single source of reasoning, VerySynh
 ---
 
 # Why VerySynh?
+ VerySynh Flow Diagram
+![VerySynh Architecture](diagram.png)
 
 Most AI systems ask a single language model to perform three fundamentally different tasks:
 
