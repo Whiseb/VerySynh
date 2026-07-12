@@ -4,9 +4,7 @@ message: "If you use, reference, or build upon VerySynh, please cite this reposi
 type: software
 
 authors:
-  - given-names: ""
-    family-names: "Horiless"
-    alias: "Whiseb"
+  - family-names: "Horiless"
 
 repository-code: "https://github.com/Whiseb/VerySynh"
 
