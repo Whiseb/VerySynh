@@ -1,15 +1,34 @@
 cff-version: 1.2.0
 title: "VerySynh"
-message: "If you use or reference this work, please cite it."
+message: "If you use, reference, or build upon VerySynh, please cite this repository."
 type: software
 
 authors:
-  - family-names: "Horiless"
+  - given-names: ""
+    family-names: "Horiless"
+    alias: "Whiseb"
 
 repository-code: "https://github.com/Whiseb/VerySynh"
 
+abstract: >
+  VerySynh is an architectural proposal for AI systems that separates
+  hypothesis generation, structured memory, and structural verification.
+  Instead of storing answers, it stores verifiable solution patterns and
+  validates generated reasoning against accumulated structural experience.
+
+keywords:
+  - artificial intelligence
+  - llm
+  - architecture
+  - reasoning
+  - verification
+  - neuro-symbolic ai
+  - structural reasoning
+  - memory-augmented ai
+  - orchestration
+
 license: "CC-BY-NC-SA-4.0"
 
-abstract: >
-  VerySynh is an architectural proposal for structural verification of AI reasoning,
-  separating hypothesis generation, memory, and deterministic structural validation.
+version: "0.1.0"
+
+date-released: "2026-07-12"
