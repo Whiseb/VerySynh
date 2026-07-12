@@ -108,4 +108,18 @@ The purpose of this repository is to **validate the architecture first, then imp
 
 ## License
 
-All rights reserved. © Horiless (GitHub: Whiseb, Telegram: @mindress). Use, copying, distribution, or modification of this architecture is permitted only with the written permission of the author.
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+(CC BY-NC-ND 4.0)
+
+© Horiless (GitHub: Whiseb, Telegram: @mindress).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format.
+
+Under the following terms:
+- Attribution — You must give appropriate credit.
+- NonCommercial — You may not use the material for commercial purposes.
+- NoDerivatives — If you remix, transform, or build upon the material,
+  you may not distribute the modified material.
+
+Full license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
