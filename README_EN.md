@@ -1,3 +1,35 @@
+# VerySynh
+
+**VerySynh stores not answers, but verifiable ways of arriving at them.**
+
+VerySynh is an architecture where a language model generates hypotheses, and an external structured memory verifies them against accumulated experience. The memory stores structural patterns of solutions — classes of admissible trajectories — with all known alternatives, negative cases, and typed relationships between them.
+
+The central theoretical principle is **structural invariance**: VerySynh verifies not textual similarity, but preservation of critical reasoning structure.
+
+---
+
+## Why not RAG or agents
+
+- **RAG** retrieves text and adds it to the prompt. The model can ignore it, distort it, or use it incorrectly. Memory is passive and has no veto power.
+- **Agents** make the model a commander that calls tools. If the model hallucinates during planning, errors multiply.
+
+VerySynh separates generation from verification. The LLM proposes. The memory constrains. The orchestrator enforces.
+
+Unlike RAG, VerySynh's memory is not advisory. It participates in deciding whether a generated solution is admissible.
+
+---
+
+## Core properties
+
+1. **Structural normalization before comparison.** A Unifier extracts a structural skeleton — cleaned of names, syntax, and style.
+2. **Patterns instead of text.** Memory stores structural solution skeletons, not raw text fragments.
+3. **Deterministic structural validation with heuristic retrieval.** Comparison is algorithmic. Retrieval may be probabilistic, but the compliance decision is rule-based.
+4. **Verification layer independent of the model.** The orchestrator and memory work with any LLM.
+
+---
+
+## How it works (simplified)
+Query → Unifier → Signature → Memory Retrieval → LLM → Unifier → Verify → Accept / Reject / Hypothesize
 
 1. **Unifier** extracts the structural skeleton and computes a normalized signature.
 2. **Memory** returns all known patterns with the same signature — gold standards, alternatives, and negative cases.
@@ -68,10 +100,9 @@ The purpose of this repository is to **validate the architecture first, then imp
 
 ## Structure
 
-- `docs/architecture.md` — Full architecture specification
-- `docs/theory.md` — Formal model, invariants, guarantees
-- `docs/faq.md` — Frequently asked questions
-- `prototype/` — Future prototype (currently placeholder)
+- `architecture.md` — Full architecture specification
+- `theory.md` — Formal model, invariants, guarantees
+- `faq.md` — Frequently asked questions
 
 ---
 
