@@ -143,8 +143,23 @@ only effective, however, when the model is capable of utilizing it.
 
 ---
 
+## Note on Model Scale
+
+While 7B+ models are a significant step up from those tested here, they may
+still prove insufficient. The cognitive demands placed on a model within
+VerySynh — simultaneous context retention, memory search and retrieval,
+synthesis of verified patterns, and honest admission of ignorance — may require
+a substantially more capable model than the 7B class can offer. The lower bound
+for a fully functional system is likely higher, and the architecture should be
+designed to accommodate models as they continue to advance in both reasoning
+ability and context fidelity.
+
+---
+
 ## Status
 
 The VerySynh prototype **validated the architectural approach** and **identified
 the minimum requirements** for model and memory. The next phase is
 implementation on a 7B+ model with function calling and pre-loaded memory.
+Further research is required to determine the exact model capability threshold
+for full system functionality.
