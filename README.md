@@ -162,8 +162,8 @@ Architectural discussions, constructive criticism, implementation ideas, experim
 
 ---
 
-# License
+## License
 
-Licensed under **CC BY-NC-ND 4.0**.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** License.
 
 See the **LICENSE** file for details.
