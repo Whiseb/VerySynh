@@ -157,7 +157,7 @@ Architectural discussions, constructive criticism, implementation ideas, experim
 ## Contact
 
 - GitHub Issues — for bug reports and discussions
-- GitHub Discussions — for architectural questions (when enabled)
+- GitHub Discussions — for architectural questions
 - Telegram: @mindress
 
 ---
