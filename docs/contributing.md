@@ -1,30 +1,65 @@
 # Contributing to VerySynh
 
-VerySynh is an open architecture project. Contributions are welcome within the terms of the license (CC BY-NC-ND 4.0).
+Thank you for your interest in **VerySynh**.
 
-## This project is currently an architectural specification
+VerySynh is an open architectural project. Contributions, discussions, and constructive criticism are welcome under the terms of the **CC BY-NC-SA 4.0** license.
 
-There is no production code yet. The goal of this stage is to validate and improve the architecture through discussion.
+---
 
-## How to contribute
+# Current Stage
 
-- **Discuss the architecture.** Open an Issue with your thoughts, questions, or criticism.
-- **Review the specification.** `architecture.md` and `theory.md` contain the full design. If you see a gap or a flaw, open an Issue or start a Discussion.
-- **Cite and share.** You are free to share and cite VerySynh with proper attribution, as long as it is non-commercial and you do not distribute modified versions.
+VerySynh is currently an **architectural specification**.
 
-## What is not allowed (under CC BY-NC-ND)
+There is no production-ready implementation yet. The current goal is to validate, refine, and strengthen the architecture through discussion, peer review, and future prototyping.
 
-- Commercial use without written permission from the author.
-- Distribution of modified versions of the architecture without written permission.
-- Creating derivative works without written permission.
+---
 
-## Code of Conduct
+# How You Can Contribute
+
+### Discuss the architecture
+
+Open an **Issue** or start a **Discussion** to share ideas, ask questions, challenge assumptions, or propose alternative approaches.
+
+### Review the documentation
+
+The complete specification is available in:
+
+- `OVERVIEW_EN.md`
+- `docs/architecture.md`
+- `docs/theory.md`
+
+If you identify inconsistencies, missing concepts, or possible improvements, please let us know.
+
+### Improve the project
+
+You are welcome to contribute:
+
+- documentation improvements;
+- diagrams and visualizations;
+- prototype implementations;
+- benchmarks and experiments;
+- examples and use cases.
+
+### Share and cite
+
+You are encouraged to share, reference, and build upon VerySynh for **non-commercial purposes**, provided that:
+
+- appropriate attribution is given;
+- derivative works are released under the **same CC BY-NC-SA 4.0 license**.
+
+---
+
+# Code of Conduct
 
 - Be respectful.
-- Critique the architecture, not the author.
+- Critique ideas, not people.
 - Assume good faith.
+- Keep discussions constructive and evidence-based.
 
-## Contact
+---
 
-- Telegram: @mindress
-- Open an Issue or start a Discussion in this repository.
+# Contact
+
+- Open an **Issue** for bug reports or architectural questions.
+- Start a **Discussion** for broader design conversations.
+- Telegram: **@mindress**
