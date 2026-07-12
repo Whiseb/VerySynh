@@ -154,6 +154,14 @@ Architectural discussions, constructive criticism, implementation ideas, experim
 
 ---
 
+## Contact
+
+- GitHub Issues — for bug reports and discussions
+- GitHub Discussions — for architectural questions (when enabled)
+- Telegram: @mindress
+
+---
+
 # License
 
 Licensed under **CC BY-NC-ND 4.0**.
