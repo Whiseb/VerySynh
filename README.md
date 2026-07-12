@@ -24,8 +24,8 @@ The system learns by building richer structural memory, not by retraining the un
 
 ## Documentation
 
-- 🇬🇧 Full Documentation → GUIDE_EN.md
-- 🇷🇺 Полная документация → GUIDE_RU.md
+- 🇬🇧 Full Documentation → overview_en.md
+- 🇷🇺 Полная документация → overview_ru.md
 - 📐 Architecture Specification → docs/architecture.md
 - 📚 Theory → docs/theory.md
 - ❓ FAQ → docs/faq.md
