@@ -1,31 +1,156 @@
-# VerySynh Architecture
+# VerySynh
 
-VerySynh is an architecture that divides the problem-solving process between two agents: a **Model** (Intuitive) and a **Memory** (Skeptical).
+> **An architectural proposal for structural verification of AI reasoning.**
 
-## Core Components
+**VerySynh stores not answers, but verifiable ways of arriving at them.**
 
-### Unifier
-Parses input to extract structural skeletons, removing noise while identifying fundamental logic bases.
+VerySynh is an architectural proposal that separates **hypothesis generation**, **memory**, and **structural verification** into independent system responsibilities.
 
-### Memory
-Stores structural patterns, negative cases, and confirmation histories. Acts as an active participant with veto power.
+Instead of treating a language model as the single source of reasoning, VerySynh introduces an external verification layer that validates generated solution structures against accumulated, reusable experience.
 
-### Model
-Generates hypotheses and synthesizes answers based on the structural facts provided by memory.
+---
 
-### Reflection Agent
-Aggregates patterns into "Golden Standards" during idle time.
+# Why VerySynh?
 
-### Orchestrator
-Implements the dialectical cycle, assembling prompts, and performing post-generation verification.
+Most AI systems ask a single language model to perform three fundamentally different tasks:
 
-## Evolution of Trust
-The system learns by building richer structural memory, not by retraining the underlying model.
+- reasoning;
+- remembering;
+- validation.
 
-## Documentation
+VerySynh separates these responsibilities.
 
-- 🇬🇧 Full Documentation → overview_en.md
-- 🇷🇺 Полная документация → overview_ru.md
-- 📐 Architecture Specification → docs/architecture.md
-- 📚 Theory → docs/theory.md
-- ❓ FAQ → docs/faq.md
+The language model proposes hypotheses.
+
+The memory stores structural solution patterns rather than text.
+
+The orchestrator verifies whether the generated reasoning follows previously validated solution trajectories.
+
+The goal is not to replace LLMs, but to make their reasoning **verifiable, reusable, explainable, and constrained by accumulated experience.**
+
+---
+
+# Who is this for?
+
+VerySynh is intended for:
+
+- AI researchers
+- AI engineers
+- Software architects
+- Contributors interested in:
+  - Neuro-symbolic AI
+  - Memory-augmented systems
+  - Explainable AI
+  - Structural reasoning
+  - AI verification
+
+---
+
+# Core Components
+
+- 🧠 **LLM** — generates hypotheses.
+- 🧩 **Unifier** — extracts normalized structural representations.
+- 🗂️ **Memory** — stores validated solution patterns instead of textual answers.
+- ⚖️ **Orchestrator** — validates generated reasoning against stored patterns.
+- 🔄 **Reflection Agent** — continuously refines, aggregates, and evolves memory.
+
+---
+
+# Core Principles
+
+- Structural normalization before comparison.
+- Pattern memory instead of text memory.
+- Deterministic structural verification.
+- Multiple admissible solution trajectories.
+- Continuous accumulation of validated experience.
+- Independence from any particular LLM.
+
+---
+
+# High-Level Workflow
+
+```text
+        User
+          │
+          ▼
+        LLM
+          │
+          ▼
+     Unifier
+          │
+          ▼
+       Memory
+          │
+          ▼
+   Orchestrator
+          │
+    Accept / Reject
+```
+
+---
+
+# What VerySynh is NOT
+
+VerySynh is **not**:
+
+- another LLM;
+- another RAG implementation;
+- another autonomous agent framework;
+- a replacement for neural networks.
+
+VerySynh is a verification architecture that complements existing language models.
+
+---
+
+# Current Status
+
+VerySynh is currently an **architectural specification and research proposal**.
+
+Current progress:
+
+- ✅ Architecture specification
+- ✅ Concept formalization
+- ✅ Public documentation
+- 🚧 Prototype implementation
+- 🚧 Experimental validation
+
+---
+
+# Roadmap
+
+- [x] Core architecture
+- [x] Documentation
+- [ ] Prototype Unifier
+- [ ] Pattern Memory
+- [ ] Orchestrator
+- [ ] Reflection Agent
+- [ ] Experimental benchmarks
+
+---
+
+# Repository
+
+| File | Description |
+|------|-------------|
+| **README.md** | Project overview |
+| **OVERVIEW_EN.md** | Complete project overview (English) |
+| **OVERVIEW_RU.md** | Полное описание проекта (Русский) |
+| **docs/architecture.md** | Architecture specification |
+| **docs/theory.md** | Formal concepts and theoretical foundations |
+| **docs/faq.md** | Frequently asked questions |
+
+---
+
+# Contributing
+
+VerySynh is currently in the specification stage.
+
+Architectural discussions, criticism, implementation ideas, experiments, and contributions are welcome.
+
+---
+
+# License
+
+Licensed under **CC BY-NC-ND 4.0**.
+
+See the **LICENSE** file for details.
