@@ -108,18 +108,8 @@ The purpose of this repository is to **validate the architecture first, then imp
 
 ## License
 
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-(CC BY-NC-ND 4.0)
+VerySynh is released under the **CC BY-NC-SA 4.0** License.
 
-© Horiless (GitHub: Whiseb, Telegram: @mindress).
+You are free to share and adapt the material for non-commercial purposes, provided that proper attribution is given and derivative works are distributed under the same license.
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format.
-
-Under the following terms:
-- Attribution — You must give appropriate credit.
-- NonCommercial — You may not use the material for commercial purposes.
-- NoDerivatives — If you remix, transform, or build upon the material,
-  you may not distribute the modified material.
-
-Full license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+See the **LICENSE** file for the complete license text.
