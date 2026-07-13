@@ -77,21 +77,24 @@ End users interact with VerySynh as a **reliable reasoning partner**, not as a r
 # High-Level Workflow
 
 ```text
-        User
-          │
-          ▼
-        LLM
-          │
-          ▼
-     Unifier
-          │
-          ▼
-       Memory
-          │
-          ▼
-   Orchestrator
-          │
-     Accept / Reject
+User
+  │
+  ▼
+Orchestrator
+  │
+  ├──► Unifier ──► Memory ──► Gold Standard (если есть)
+  │
+  ▼
+LLM (получает запрос + контекст из памяти)
+  │
+  ▼
+Candidate Answer
+  │
+  ▼
+Orchestrator ──► Verifier ──► Accept / Reject
+  │
+  ▼
+User
 ```
 
 ---
